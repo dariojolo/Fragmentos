@@ -12,6 +12,14 @@
         android:name="com.dariojolo.fragmentos.DataFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         tools:layout="@layout/fragment_data"/>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.dariojolo.fragmentos.DetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        tools:layout="@layout/fragment_details"/>
 </LinearLayout>
